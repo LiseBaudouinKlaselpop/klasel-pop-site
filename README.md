@@ -8,4 +8,4 @@ Site officiel du projet musical Klasel Pop, autour du piano et de la chanson.
 - `README.md` : informations sur le projet
 
 ## Contact
-Pour toute demande : contact@klaselpop.fr
+Pour toute demande : klaselpop@gmail.com
