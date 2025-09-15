@@ -1,42 +1,123 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klasel Pop</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klasel Pop</title>
+  <!-- Typo Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #2b2d42;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ef233c;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #2b2d42;
+    }
+
+    footer {
+      background: #2b2d42;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Klasel Pop</h1>
-        <nav>
-            <ul>
-                <li><a href="#presentation">Présentation</a></li>
-                <li><a href="#concerts">Concerts</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Klasel Pop</h1>
+    <nav>
+      <ul>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="#concerts">Concerts</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section id="presentation">
-            <h2>Présentation</h2>
-            <p>Bienvenue sur le site officiel de Klasel Pop, projet musical autour du piano et de la chanson.</p>
-        </section>
+  <main>
+    <section id="presentation">
+      <h2>Présentation</h2>
+      <p>Bienvenue sur le site officiel de <strong>Klasel Pop</strong>, projet musical autour du piano et de la chanson.</p>
+    </section>
 
-        <section id="concerts">
-            <h2>Concerts</h2>
-            <p>Découvrez nos prochains concerts et événements à venir.</p>
-        </section>
+    <section id="concerts">
+      <h2>Concerts</h2>
+      <p>Découvrez nos prochains concerts et événements à venir.</p>
+    </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Pour toute demande, écrivez-nous à : <a href="mailto:contact@klaselpop.fr">contact@klaselpop.fr</a></p>
-        </section>
-    </main>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Pour toute demande, écrivez-nous à : <a href="mailto:contact@klaselpop.fr">contact@klaselpop.fr</a></p>
+    </section>
+  </main>
 
-    <footer>
-        <p>© 2025 Klasel Pop</p>
-    </footer>
+  <footer>
+    <p>© 2025 Klasel Pop</p>
+  </footer>
 </body>
 </html>
